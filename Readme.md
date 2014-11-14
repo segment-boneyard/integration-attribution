@@ -1,8 +1,8 @@
-[![Build Status](https://circleci.com/gh/segmentio/integration-attribution.png)](https://circleci.com/gh/segmentio/integration-attribution)
+[![Build Status](https://circleci.com/gh/segmentio/integration-attribution/tree/master.png?style=badge)](https://circleci.com/gh/segmentio/integration-attribution/tree/master)
 
-# Attribution server-side integration.
+# integration-attribution
 
-Write me...
+Attribution server-side integration for Segment.
 
 
 ## License
