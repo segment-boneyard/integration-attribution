@@ -1,0 +1,61 @@
+{
+  "input": {
+    "userId": "user-id",
+    "sessionId": "session-id",
+    "type": "identify",
+    "timestamp": "2014",
+    "traits": {
+      "time": "2014-10-12",
+      "firstName": "John",
+      "lastName": "Doe",
+      "list": [1, 2, 3],
+      "object": "{}"
+    },
+    "context": {
+      "device": {
+        "id": "device-id",
+        "model": "device-model",
+        "brand": "device-brand",
+        "manufacturer": "device-manufacturer"
+      },
+      "library": { "name": "analytics-ios" },
+      "app": { "version": "app-version" },
+      "os": { "version": "os-version" },
+      "network": { "carrier": "carrier" },
+      "ip": "0.0.0.0",
+      "location": {
+        "latitude": "latitude",
+        "longitude": "longitude"
+      }
+    }
+  },
+  "output": {
+    "user_id": "user-id",
+    "cookie_id": "session-id",
+    "traits": {
+      "time": "2014-10-12T00:00:00.000Z",
+      "id": "user-id",
+      "firstName": "John",
+      "lastName": "Doe",
+      "list": [1, 2, 3],
+      "object": "{}"
+    },
+    "context": {
+      "device": {
+        "id": "device-id",
+        "model": "device-model",
+        "brand": "device-brand",
+        "manufacturer": "device-manufacturer"
+      },
+      "library": { "name": "analytics-ios" },
+      "app": { "version": "app-version" },
+      "os": { "version": "os-version" },
+      "network": { "carrier": "carrier" },
+      "ip": "0.0.0.0",
+      "location": {
+        "latitude": "latitude",
+        "longitude": "longitude"
+      }
+    }
+  }
+}

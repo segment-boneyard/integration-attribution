@@ -1,0 +1,32 @@
+{
+  "input": {
+    "type": "page",
+    "userId": "user-id",
+    "sessionId": "session-id",
+    "timestamp": "2014",
+    "name": "Attribution",
+    "category": "Docs",
+    "properties": {
+      "url": "https://segment.io/docs/integrations/attribution/"
+    },
+    "context":{
+      "ip": "0.0.0.0",
+      "userAgent": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)"
+    }
+  },
+  "output": {
+    "user_id": "user-id",
+    "cookie_id": "session-id",
+    "event": "Viewed Attribution Page",
+    "timestamp": "2014-01-01T00:00:00.000Z",
+    "properties": {
+      "name": "Attribution",
+      "category": "Docs",
+      "url": "https://segment.io/docs/integrations/attribution/"
+    },
+    "context":{
+      "ip": "0.0.0.0",
+      "userAgent": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)"
+    }
+  }
+}

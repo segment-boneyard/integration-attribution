@@ -1,0 +1,58 @@
+{
+  "input": {
+    "type": "screen",
+    "userId": "user-id",
+    "sessionId": "session-id",
+    "name": "Attribution",
+    "category": "Docs",
+    "timestamp": "2014",
+    "properties": {
+      "property": true
+    },
+    "context": {
+      "device": {
+        "id": "device-id",
+        "model": "device-model",
+        "brand": "device-brand",
+        "manufacturer": "device-manufacturer"
+      },
+      "library": { "name": "analytics-ios" },
+      "app": { "version": "app-version" },
+      "os": { "version": "os-version" },
+      "network": { "carrier": "carrier" },
+      "ip": "0.0.0.0",
+      "location": {
+        "latitude": "latitude",
+        "longitude": "longitude"
+      }
+    }
+  },
+  "output": {
+    "user_id": "user-id",
+    "cookie_id": "session-id",
+    "timestamp": "2014-01-01T00:00:00.000Z",
+    "event": "Viewed Attribution Screen",
+    "properties": {
+      "name": "Attribution",
+      "category": "Docs",
+      "property": true
+    },
+    "context": {
+      "device": {
+        "id": "device-id",
+        "model": "device-model",
+        "brand": "device-brand",
+        "manufacturer": "device-manufacturer"
+      },
+      "library": { "name": "analytics-ios" },
+      "app": { "version": "app-version" },
+      "os": { "version": "os-version" },
+      "network": { "carrier": "carrier" },
+      "ip": "0.0.0.0",
+      "location": {
+        "latitude": "latitude",
+        "longitude": "longitude"
+      }
+    }
+  }
+}
