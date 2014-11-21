@@ -15,7 +15,7 @@
   "dependencies": {
     "convert-dates": "^0.1.1",
     "merge-util": "^0.1.0",
-    "segmentio-integration": "^2.3.3"
+    "segmentio-integration": "^2.3.4"
   },
   "devDependencies": {
     "convert-dates": "^0.1.1",
