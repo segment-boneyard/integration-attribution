@@ -24,8 +24,7 @@ describe('Attribution', function () {
       .name('Attribution')
       .endpoint('https://track.attributionapp.com')
       .channels(['server', 'mobile', 'client'])
-      .ensure('settings.projectId')
-      .retries(2);
+      .ensure('settings.projectId');
   });
 
   describe('.validate()', function () {
