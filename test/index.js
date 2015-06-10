@@ -113,4 +113,15 @@ describe('Attribution', function () {
         .expects(200, done);
     });
   });
+
+  describe('.alias()', function (){
+    it('should be able to alias correctly', function(done){
+      var json = test.fixture('alias');
+      test
+        .set(settings)
+        .alias(json.input)
+        .sends(json.output)
+        .expects(200, done);
+    });
+  });
 });
