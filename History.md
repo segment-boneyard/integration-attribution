@@ -1,4 +1,11 @@
 
+1.0.7 / 2015-06-26
+==================
+
+  * deps: update segmentio-integration to 3.2
+  * Update circle template
+
+
 1.0.6 / 2014-12-08
 ==================
 
