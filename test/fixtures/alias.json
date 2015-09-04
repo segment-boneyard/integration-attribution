@@ -1,0 +1,12 @@
+{
+  "input": {
+    "previousId": "previous-id",
+    "type": "alias",
+    "userId": "user-id",
+    "timestamp": "2014"
+  },
+  "output": {
+    "previous_id": "previous-id",
+    "user_id": "user-id"
+  }
+}
