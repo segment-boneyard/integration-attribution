@@ -16,7 +16,7 @@
     "convert-dates": "^0.1.1",
     "isodate-traverse": "^0.3.2",
     "merge-util": "^0.1.0",
-    "segmentio-integration": "^3.2.0"
+    "segmentio-integration": "^5.0.1"
   },
   "devDependencies": {
     "convert-dates": "^0.1.1",
