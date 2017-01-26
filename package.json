@@ -16,7 +16,7 @@
     "convert-dates": "^0.1.1",
     "isodate-traverse": "^0.3.2",
     "merge-util": "^0.1.0",
-    "segmentio-integration": "^5.0.1"
+    "segmentio-integration": "^5.1.0"
   },
   "devDependencies": {
     "@segment/eslint-config": "^3.4.0",
