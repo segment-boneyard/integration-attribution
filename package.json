@@ -1,6 +1,6 @@
 {
-  "name": "integration-attribution",
-  "version": "1.2.0",
+  "name": "@segment/integration-attribution",
+  "version": "1.2.1",
   "private": true,
   "description": "Attribution server-side integration",
   "author": "Segment <friends@segment.com>",
