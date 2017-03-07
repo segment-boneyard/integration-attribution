@@ -1,7 +1,6 @@
 {
-  "name": "integration-attribution",
-  "version": "1.2.0",
-  "private": true,
+  "name": "@segment/integration-attribution",
+  "version": "1.2.1",
   "description": "Attribution server-side integration",
   "author": "Segment <friends@segment.com>",
   "repository": {
